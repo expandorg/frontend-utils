@@ -1,0 +1,9 @@
+{
+  "name": "@expandorg/utils",
+  "version": "0.1.0",
+  "description": "Expand.org Utilties",
+  "main": "index.js",
+  "author": "expand.org",
+  "license": "ISC",
+  "keywords": []
+}

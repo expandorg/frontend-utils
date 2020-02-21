@@ -1,0 +1,42 @@
+{
+  "name": "@expandorg/frontend-utils",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Expand.org frontend app utils",
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "author": "expand.org",
+  "scripts": {
+    "lerna": "lerna",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "test": "jest --config jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expandorg/frontend-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/expandorg/frontend-utils/issues"
+  },
+  "homepage": "https://github.com/expandorg/frontend-utils#readme",
+  "keywords": [
+    "react",
+    "redux",
+    "expand"
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@expandorg/eslint-config": "^0.5.11",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "flow-bin": "^0.118.0",
+    "lerna": "^3.20.2",
+    "normalizr": "^3.5.0",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "redux-saga": "^1.1.3"
+  }
+}

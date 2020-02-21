@@ -1,0 +1,12 @@
+{
+  "name": "@expandorg/api-client",
+  "version": "0.1.0",
+  "description": "Expand.org api client",
+  "main": "index.js",
+  "author": "expand.org",
+  "license": "ISC",
+  "keywords": ["expand.org", "api-client"],
+  "dependencies": {
+    "whatwg-fetch": "^3.0.0"
+  }
+}
